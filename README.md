@@ -1,4 +1,4 @@
 # Testing Cypress
 
-M. Abhysta Huda Arrofif '\n'
+M. Abhysta Huda Arrofif \n
 Noted : Jika error lakukan refesh
