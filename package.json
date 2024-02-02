@@ -1,0 +1,25 @@
+{
+  "name": "cypress-testing-luma",
+  "version": "1.0.0",
+  "description": "cypress testing",
+  "main": "index.js",
+  "scripts": {
+    "cypress": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abhysta/cypress-testing-luma.git"
+  },
+  "keywords": [
+    "cypress"
+  ],
+  "author": "Abhysta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Abhysta/cypress-testing-luma/issues"
+  },
+  "homepage": "https://github.com/Abhysta/cypress-testing-luma#readme",
+  "devDependencies": {
+    "cypress": "^13.6.4"
+  }
+}
