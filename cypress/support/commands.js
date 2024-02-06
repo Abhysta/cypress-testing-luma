@@ -233,7 +233,7 @@ Cypress.Commands.add("viewUpdate", (email, passwordValid) => {
 
 Cypress.Commands.add("viewUpdateFail", (email, passwordValid) => {
   cy.viewCart(email, passwordValid);
-  cy.get("input[data-cart-item-id=MJ12-M-Blue]").type("3").clear();
+  cy.get("input[data-cart-item-id=MJ12-M-Blue]").clear().type("0");
   cy.get("button[data-cart-item-update]").click();
   cy.contains("This is a required field.");
   Cypress.on("uncaught:exception", (err, runnable) => {
